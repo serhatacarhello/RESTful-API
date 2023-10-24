@@ -1,3 +1,4 @@
+
 .Models: These are responsible for defining and structuring the data that will be stored in the database.
 .Routes: These determine the URL paths and endpoints that clients can use to interact with the API.
 .Controllers: These are used within routes to manage and simplify the handling of various operations.
