@@ -21,7 +21,7 @@
 ## Database Configuration
 - Create a "database.js" file for configuring the MongoDB database.
 
-## Create a New Post
+## CRUD Operations
 ```javascript
 const Post = require("../models/post.js");
 
