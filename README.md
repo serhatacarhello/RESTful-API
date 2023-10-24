@@ -1,10 +1,7 @@
-1. models  veri tabanına kayıt işlemleri
-2. routes yollari belirlerme
-3. controllers routes içerindeki işlemleri kısaltmak için
-4. middleware authentication işlemleri için  
-5. config database işlemleri için 
-
-#AUTHENTICATION
-
-1.create a auth.js files in routes/controllers and middleware  folders 
-2.create a databese.js file for mongodb configuration
+.Models: These are responsible for defining and structuring the data that will be stored in the database.
+.Routes: These determine the URL paths and endpoints that clients can use to interact with the API.
+.Controllers: These are used within routes to manage and simplify the handling of various operations.
+.Middleware: This is for handling authentication and other processing tasks before the actual route functions are executed.
+.Configuration: These files are used to manage database-related settings and configurations.
+.Authentication: To handle authentication, create an "auth.js" file in the "routes," "controllers," and "middleware" directories.
+.Database Configuration: Create a "database.js" file for configuring the MongoDB database
